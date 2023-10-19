@@ -1,0 +1,13 @@
+.header__link-item {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.header__link-item--selected {
+    background-color: antiquewhite;
+}
+
+.header__link-item--hover:hover {
+    background-color: antiquewhite;
+}
