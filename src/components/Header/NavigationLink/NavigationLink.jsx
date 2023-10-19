@@ -1,4 +1,5 @@
 import './NavigationLink.css';
+import { Link } from 'react-router-dom';
 
 
 export default function NavigationLink({
@@ -13,7 +14,7 @@ export default function NavigationLink({
 
     return (
         <ul className="header__nav-list">
-            <a onClick={() => onSelect(text)} className={`${initialClass} ${selectedClass}`} href={href}>{text}</a>
+            <Link onClick={() => onSelect(text)} className={`${initialClass} ${selectedClass}`} to={href}> {text} </Link>
         </ul>
     );
 }

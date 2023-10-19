@@ -1,6 +1,8 @@
+import './Navbar.css';
+import NavigationLink from '../NavigationLink/NavigationLink';
+
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import './Header.css';
-import NavigationLink from './NavigationLink';
 
 export default function Header() {
     const [navLinks, setNavLinks] = useState([
@@ -20,9 +22,9 @@ export default function Header() {
     return (
         <header className="header">
             <div className="header__logo">
-                <a href="/" className="header__nav-logo">
+                <Link to="/" className="header__nav-logo">
                     <img className="header__logo-img" src="/logo.png" alt="House logo" />
-                </a>
+                </Link>
             </div>
             <nav className="header__navigation">
                 {navLinks.map(link =>
