@@ -5,9 +5,20 @@
 }
 
 .header__link-item--selected {
-    background-color: antiquewhite;
+    background-color: var(--nav-selected);
 }
 
 .header__link-item--hover:hover {
-    background-color: antiquewhite;
+    background-color: var(--nav-selected);
+}
+
+/* Media queries */
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .header__link-item {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
 }

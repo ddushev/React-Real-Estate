@@ -1,8 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    width: 80vw;
+    /* width: 80vw; */
     margin: auto;
 }
 
@@ -19,11 +18,27 @@
 .header__nav-list {
     display: flex;
     justify-content: space-between;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .header__logo-img {
     height: 4rem;
 }
 
+/* Media queries */
 
+/* Mobile */
+
+@media (max-width: 767px) {
+    .header__logo {
+        padding-left: 0rem;
+    }
+
+    .header__navigation {
+        padding-right: 0rem;
+    }
+
+    .header__link-item {
+        font-size: 0.5rem;
+    }
+}

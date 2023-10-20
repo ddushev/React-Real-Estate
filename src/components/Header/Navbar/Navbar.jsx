@@ -22,7 +22,7 @@ export default function Header() {
     return (
         <header className="header">
             <div className="header__logo">
-                <Link to="/" className="header__nav-logo">
+                <Link onClick={() => onSelect('Home')} to="/" className="header__nav-logo">
                     <img className="header__logo-img" src="/logo.png" alt="House logo" />
                 </Link>
             </div>

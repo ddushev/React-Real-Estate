@@ -10,10 +10,7 @@
 /* Global variables */
 
 :root{
-  --h2-text: #333333;
-  --h3-text: #222222;
-  --p-text-dark: #404040;
-  --p-text-light: #737373;
+  --nav-selected: antiquewhite;
 }
 
 /* Global styles */
