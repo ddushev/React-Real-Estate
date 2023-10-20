@@ -1,0 +1,41 @@
+.homepage-featured {
+    width: 90%;
+    margin: auto;
+}
+
+.homepage-featured__heading {
+    text-align: center;
+    margin: 4rem 0 2.5rem 0;
+    font-size: 4rem;
+}
+
+/* Media queries */
+
+/*Large Laptop */
+@media (max-width: 1670px) {
+    .homepage-featured__heading {
+        margin: 3.3rem 0 2rem 0;
+        font-size: 2.8rem;
+    }
+}
+
+/* Small laptop */
+@media (max-width: 1024px) {
+    .homepage-featured__heading {
+        margin: 2.5rem 0 1.5rem 0;
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+}
+
+/*Mobile S-L */
+@media (max-width: 425px) {
+    .homepage-featured__heading {
+        margin: 2em 0 0.8rem 0;
+        font-size: 0.8rem;
+    }    
+}

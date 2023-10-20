@@ -6,11 +6,11 @@ import { useState } from 'react';
 
 export default function Header() {
     const [navLinks, setNavLinks] = useState([
-        { text: 'Catalog', href: '/catalog', selected: false },
-        { text: 'Create', href: '/create', selected: false },
+        { text: 'Buy', href: '/buy', selected: false },
+        { text: 'Sell', href: '/sell', selected: false },
         { text: 'Logout', href: '/logout', selected: false },
-        { text: 'Login', href: '/login', selected: false },
-        { text: 'Register', href: '/register', selected: false }
+        { text: 'Sign in', href: '/sign-in', selected: false },
+        { text: 'Sign up', href: '/sign-up', selected: false }
     ]);
 
     function onSelect(text) {
