@@ -29,7 +29,10 @@
 
 /* Tablet */
 @media (max-width: 768px) {
-
+    .homepage-featured__heading {
+        margin: 2rem 0 1.2rem 0;
+        font-size: 1.3rem;
+    }
 }
 
 /*Mobile S-L */

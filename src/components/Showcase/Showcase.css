@@ -63,11 +63,11 @@
 /* Tablet */
 @media (max-width: 768px) {
     .showcase__main-heading {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .showcase__sub-heading {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
