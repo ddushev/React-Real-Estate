@@ -27,9 +27,8 @@
 
 /* Media queries */
 
-/* Mobile */
-
-@media (max-width: 767px) {
+/* Tablet */
+@media (max-width: 768px) {
     .header__logo {
         padding-left: 0rem;
     }

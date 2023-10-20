@@ -9,8 +9,8 @@ export default function Showcase() {
                     <h2 className="showcase__sub-heading">Helping millions of people find their perfect fit.</h2>
                 </div>
                 <img className="showcase__house-img" src="/showcase.jpg" alt="Awesome house at sunset" />
+                <div className="showcase__overlay"></div>
             </section>
-
         </>
     );
 }
