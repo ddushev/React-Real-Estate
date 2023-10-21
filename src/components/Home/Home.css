@@ -9,6 +9,10 @@
     font-size: 4rem;
 }
 
+.homepage-featured__list {
+    display: flex;
+}
+
 /* Media queries */
 
 /*Large Laptop */
