@@ -1,0 +1,8 @@
+.homepage-featured__property {
+    width: 20%;
+}
+
+.homepage-featured__img {
+    width: 100%;
+    object-fit: cover;
+}

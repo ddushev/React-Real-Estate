@@ -1,5 +1,5 @@
 .homepage-featured {
-    width: 90%;
+    width: 100vw;
     margin: auto;
 }
 
@@ -9,8 +9,10 @@
     font-size: 4rem;
 }
 
-.homepage-featured__list {
+.homepage-featured__properties {
     display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
 }
 
 /* Media queries */
