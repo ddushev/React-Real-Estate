@@ -51,11 +51,11 @@
 /* Small laptop */
 @media (max-width: 1024px) {
     .showcase__main-heading {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .showcase__sub-heading {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 

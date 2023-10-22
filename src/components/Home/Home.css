@@ -27,17 +27,31 @@
 
 /* Small laptop */
 @media (max-width: 1024px) {
+    .homepage-featured {
+        margin-bottom: 7rem;
+    }
+
     .homepage-featured__heading {
-        margin: 2.5rem 0 1.5rem 0;
+        margin: 3.5rem 0 3.5rem 0;
         font-size: 1.8rem;
     }
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+    .homepage-featured {
+        margin-bottom: 4rem;
+    }
+
+    .homepage-featured__properties {
+        flex-direction: column;        
+        align-items: center;
+        gap: 2rem;
+    }
+
     .homepage-featured__heading {
-        margin: 2rem 0 1.2rem 0;
-        font-size: 1.3rem;
+        margin: 2.2rem 0 1.5rem 0;
+        font-size: 1.5rem;
     }
 }
 
