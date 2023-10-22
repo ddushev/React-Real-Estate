@@ -1,6 +1,6 @@
 .homepage-featured {
-    width: 100vw;
     margin: auto;
+    overflow: hidden;
 }
 
 .homepage-featured__heading {
@@ -12,7 +12,6 @@
 .homepage-featured__properties {
     display: flex;
     justify-content: space-evenly;
-    overflow: hidden;
 }
 
 /* Media queries */

@@ -1,8 +1,19 @@
 .homepage-featured__property {
     width: 20%;
+    border: 1px solid var(--borders);
+    border-radius: 1rem;
 }
 
 .homepage-featured__img {
     width: 100%;
     object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.homepage-featured__body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
 }
