@@ -1,6 +1,7 @@
 .homepage-featured {
     margin: auto;
     overflow: hidden;
+    margin-bottom: 4rem;
 }
 
 .homepage-featured__heading {

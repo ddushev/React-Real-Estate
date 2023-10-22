@@ -7,6 +7,7 @@ import SignIn from './components/SignIn/SignIn'
 import Logout from './components/Logout/Logout'
 import SignUp from './components/SignUp/SignUp'
 import Showcase from './components/Showcase/Showcase'
+import Footer from './components/Footer/Footer'
 
 import { Route, Routes } from 'react-router-dom'
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/logout' element={<Logout />} />
       </Routes>
       </div>
+      <Footer />
     </>
   )
 }
