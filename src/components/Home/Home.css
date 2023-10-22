@@ -50,7 +50,7 @@
     }
 
     .homepage-featured__heading {
-        margin: 2.2rem 0 1.5rem 0;
+        margin: 3rem 0 2.5rem 0;
         font-size: 1.5rem;
     }
 }
@@ -58,7 +58,11 @@
 /*Mobile S-L */
 @media (max-width: 425px) {
     .homepage-featured__heading {
-        margin: 2em 0 0.8rem 0;
+        margin: 2.5m 0 2rem 0;
         font-size: 0.8rem;
-    }    
+    }
+    
+    .homepage-featured__properties {
+        gap: 2.5rem;
+    }
 }
