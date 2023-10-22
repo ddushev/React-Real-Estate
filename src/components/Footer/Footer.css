@@ -18,3 +18,65 @@
     font-size: 2rem;
 
 }
+
+/* Media queries */
+
+/* 4K resolution */
+@media (min-width: 2560px) {
+    .footer__copyright {
+        font-size: 2rem;
+    }
+
+    .footer-socials {
+        font-size: 2.5rem;
+    
+    }
+}
+
+/*Large Laptop */
+@media (max-width: 1670px) {
+    .footer__copyright {
+        font-size: 1.3rem;
+    }
+
+    .footer-socials {
+        font-size: 1.8rem;
+    
+    }
+}
+
+/* Small laptop */
+@media (max-width: 1024px) {
+    .footer__copyright {
+        font-size: 1rem;
+    }
+
+    .footer-socials {
+        font-size: 1.5rem;
+    
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .footer__copyright {
+        font-size: 0.8rem;
+    }
+
+    .footer-socials {
+        font-size: 1.3rem;
+    
+    }
+}
+
+/*Mobile S-L */
+@media (max-width: 425px) {
+    .footer__copyright {
+        font-size: 0.7rem;
+    }
+
+    .footer-socials {
+        font-size: 1.3rem;
+    
+    }
+}
