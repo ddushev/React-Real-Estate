@@ -60,7 +60,7 @@
 /* Tablet */
 @media (max-width: 768px) {
     .footer__copyright {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .footer-socials {
@@ -72,7 +72,7 @@
 /*Mobile S-L */
 @media (max-width: 425px) {
     .footer__copyright {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .footer-socials {
