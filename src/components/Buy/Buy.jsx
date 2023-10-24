@@ -5,10 +5,6 @@ export default function Buy() {
     return (
         <section className="buy-section">
             <div className="buy-section__properties-container">
-                <Listing />
-                <Listing />
-                <Listing />
-                <Listing />
             </div>
         </section>
     );
