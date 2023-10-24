@@ -1,5 +1,4 @@
 .sell-section {
-    margin: auto;
     height: 86vh;
     display: flex;
 }
@@ -7,7 +6,6 @@
 .sell-section__img-container {
     width: 70%;
     height: 100%;
-    position: relative;
 }
 
 .sell-section__img {
@@ -19,7 +17,6 @@
 .sell-section__form-container {
     width: 30%;
     height: 100%;
-    position: relative;
 }
 
 .sell-section__form {
